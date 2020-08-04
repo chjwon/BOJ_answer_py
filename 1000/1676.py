@@ -1,0 +1,10 @@
+n=int(input())
+sol = 0
+for i in range(1,n+1):
+    if(i%5==0):
+        sol += 1
+    if(i%25==0):
+        sol += 1
+    if(i%125==0):
+        sol+=1
+print(sol)
