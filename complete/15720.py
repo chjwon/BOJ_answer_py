@@ -3,7 +3,6 @@ B,C,D=map(int, input().split())
 total = 0
 
 burger = input().split(' ')
-for i1 in range(B):
     total += int(burger[i1])
     burger[i1] = int(burger[i1])
 
