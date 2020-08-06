@@ -1,3 +1,6 @@
+# need fix
+# https://www.acmicpc.net/problem/2751
+
 input_num = []
 num = int(input())
 for i in range(num):

@@ -1,3 +1,7 @@
+# need fix
+# https://www.acmicpc.net/problem/1920
+
+
 num1=0
 num2=0
 num1_arr=[]

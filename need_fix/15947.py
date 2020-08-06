@@ -1,3 +1,7 @@
+# need fix
+# https://www.acmicpc.net/problem/15947
+
+
 N = int(input())
 num = N%14
 term = int(N/14)

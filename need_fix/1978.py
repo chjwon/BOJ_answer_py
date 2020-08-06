@@ -1,5 +1,6 @@
-#런타임 에러
-
+# 런타임 에러
+# need fix
+# https://www.acmicpc.net/problem/1978
 
 def isitPrime(n):
     if(n==1):
