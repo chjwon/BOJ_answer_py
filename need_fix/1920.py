@@ -1,6 +1,6 @@
 # need fix
 # https://www.acmicpc.net/problem/1920
-
+# 런타임에러
 
 num1=0
 num2=0

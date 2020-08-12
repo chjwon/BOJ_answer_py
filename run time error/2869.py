@@ -1,4 +1,4 @@
-# 시간 초과 time out
+# 시간 초과
 # need fix
 # https://www.acmicpc.net/problem/2869
 a,b,c = map(int, input().split(' ')) ; sol = 0

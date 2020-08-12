@@ -1,6 +1,6 @@
 # need fix
 # https://www.acmicpc.net/problem/15947
-
+# 틀림
 
 N = int(input())
 num = N%14
