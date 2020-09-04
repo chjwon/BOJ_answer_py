@@ -70,5 +70,23 @@ for pp in range(len(equation_sol_can)):
     if(function(a,b,c,d,equation_sol_can[pp])==0):
         solution.append(equation_sol_can[pp])
 
+        # 수정한 부분 시작
+        k = equation_sol_can[pp]
+        if(-4*a*c+b*b+2*a*b*k-3*a*a*k*k>=0):
+            temp1 = (-b+k*a+(-4*a*c+b*b+2*a*b*k-3*a*a*k*k)**(1/2))/(2*a)
+            temp2 = (-b+k*a-(-4*a*c+b*b+2*a*b*k-3*a*a*k*k)**(1/2))/(2*a)
+            # print(type(temp1))
+            # print(type(temp2))
+            if (temp1 in solution):
+                pass
+            else:
+                solution.append(temp1)
+            if (temp2 in solution):
+                pass
+            else:
+                solution.append(temp2)
+        break
+        # 수정한 부분 끝
+
 for ll in range(len(solution)):
-    print("%.4f" %solution[ll])
+    print("%.4f" %solution[ll],end=' ')
