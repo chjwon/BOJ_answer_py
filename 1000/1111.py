@@ -1,5 +1,3 @@
-# 런타임 에러
-
 # main
 n = int(input())
 numList = input().split()
