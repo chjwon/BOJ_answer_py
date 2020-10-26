@@ -11,3 +11,8 @@ def reverse_list(list_num):
 
 print(reverse_list(list_1))
 print(reverse_list(list_2))
+
+
+
+
+
